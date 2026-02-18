@@ -3579,7 +3579,7 @@ textarea.form-control-lg {
 
 .btn-link {
   --bs-btn-font-weight: 400;
-  --bs-btn-color: #1F2A2E;
+  --bs-btn-color: #00bbff;
   --bs-btn-bg: transparent;
   --bs-btn-border-color: transparent;
   --bs-btn-hover-color: var(--bs-link-hover-color);
@@ -16436,20 +16436,23 @@ textarea.form-control-lg {
   }
 }
 .header {
-  padding: 28px 0;
+  padding: 10px 0;
   z-index: 99;
   transition: all 0.5s ease-in-out;
   animation: 0.5s ease-in-out 0s normal none 1 running fadeInDown;
 }
 @media (max-width: 991.98px) {
   .header {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 .header.fixed-header {
-  padding: 20px 0;
-  background-color: var(--bs-primary);
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.7); /* prozirna crna */
+  backdrop-filter: blur(10px);         /* zamućenje pozadine */
+  -webkit-backdrop-filter: blur(10px); /* Safari podrška */
 }
+
 .header.fixed-header .logo .logo-dark {
   display: block;
 }
@@ -16460,7 +16463,7 @@ textarea.form-control-lg {
   color: var(--bs-dark) !important;
 }
 .header.fixed-header .toggle-menu {
-  background-color: var(--bs-dark) !important;
+  background-color: red !important;
 }
 .header.fixed-header .toggle-menu .menu-icon {
   color: var(--bs-white) !important;
@@ -16669,7 +16672,7 @@ textarea.form-control-lg {
 }
 
 #scrollToTopBtn {
-  transition: all 0.5s ease-in-out;
+  transition: all 2s ease-in-out;
   display: none;
 }
 

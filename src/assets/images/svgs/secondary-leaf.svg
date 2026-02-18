@@ -1,5 +1,95 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1 13.1143L7.52824 10.3133L11.2858 12.4141L12.0449 19.306L7.41439 19.2691L8.09756 14.4779L7.30051 14.0357L3.39115 16.9842L1 13.1143Z" fill="#1F2A2E"/>
-<path d="M11.7034 12.119L17.4726 16.2099L19.7499 12.2664L15.1192 10.4605V9.57597L19.7499 7.73319L17.4726 3.82651L11.7034 7.91747V12.119Z" fill="#1F2A2E"/>
-<path d="M11.2858 7.58592L12.0449 0.69397L7.41439 0.767659L8.09756 5.55888L7.30051 6.00114L3.3532 3.0527L1 6.88566L7.52824 9.68668L11.2858 7.58592Z" fill="#1F2A2E"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
+  <defs>
+    <style>
+      .st0 {
+        clip-path: url(#clippath-4);
+      }
+
+      .st1 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st2 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: red;
+      }
+
+      .st4 {
+        opacity: .9;
+      }
+
+      .st5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st6 {
+        clip-path: url(#clippath-5);
+      }
+
+      .st7 {
+        clip-path: url(#clippath-3);
+      }
+
+      .st8 {
+        clip-path: url(#clippath-2);
+      }
+
+      .st9 {
+        fill: url(#linear-gradient);
+      }
+
+      .st10 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st2" x="-3.34" y="-4.23" width="27.89" height="27.89"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st2" x="-3.34" y="-4.23" width="27.89" height="27.89"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="st2" x="-3.34" y="-4.23" width="27.89" height="27.89"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="st2" x="1.29" y="1.7" width="15.59" height="16.73"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <polygon class="st2" points="7.3 1.7 4.62 6.43 16.88 15.64 16.88 13.54 7.3 1.7"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-.64" y1="18.8" x2="-.61" y2="18.8" gradientTransform="translate(308.11 8937.43) scale(474.89 -474.89)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6d0000"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+    <clipPath id="clippath-5">
+      <polygon class="st2" points="1.29 12.31 16.88 18.42 16.88 16.33 4.1 7.51 1.29 12.31"/>
+    </clipPath>
+    <linearGradient id="linear-gradient1" x1="-.29" y1="19.33" x2="-.27" y2="19.33" gradientTransform="translate(179.23 11681.68) scale(603.77 -603.77)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#730000"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+  </defs>
+  <g class="st10">
+    <g class="st5">
+      <g class="st8">
+        <g class="st4">
+          <g class="st7">
+            <g class="st0">
+              <rect class="st9" x="4.62" y="1.7" width="12.26" height="13.94"/>
+            </g>
+            <g class="st6">
+              <rect class="st1" x="1.29" y="7.51" width="15.59" height="10.91"/>
+            </g>
+          </g>
+        </g>
+        <path class="st3" d="M18.68,6.43c-.29-2.66-2.55-4.74-5.29-4.74-.15,0-.29,0-.44.02v-.02h-5.66l-2.68,4.74h14.07Z"/>
+        <path class="st3" d="M4.02,7.49l-2.73,4.82h11.65c.15.01.3.02.46.02,2.78,0,5.05-2.13,5.3-4.84H4.02Z"/>
+      </g>
+    </g>
+  </g>
 </svg>
