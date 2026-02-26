@@ -95,29 +95,9 @@
 
     <!--  Banner Section -->
     <section id="Goreje" class="banner-section position-relative d-flex align-items-end min-vh-100">
-<div class="banner-slider position-absolute top-0 start-0 w-100 h-100">
-
-<img src="assets/images/backgrounds/naslovna1.jpg"
-class="banner-slide active"
-alt="RED STRIPES multimedia studio"
-loading="eager"
-decoding="async">
-
-<img src="assets/images/backgrounds/naslovna2.jpg"
-class="banner-slide"
-alt="video produkcija Osijek"
-loading="eager"
-decoding="async">
-
-<img src="assets/images/backgrounds/naslovna1.jpg"
-class="banner-slide"
-alt="multimedia studio"
-loading="eager"
-decoding="async">
-
-
-
-</div>
+      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay muted loop playsinline>
+        <source src="/assets/images/backgrounds/web4.webm" type="video/mp4" />
+      </video>
       <div class="container">
         <div class="d-flex flex-column gap-4 pb-8 position-relative z-1">
           <div class="row align-items-center">
@@ -139,8 +119,8 @@ decoding="async">
     </section>
 
     <!--  Services Section -->
-      <section style="background-color: rgb(12, 12, 12);" class="featured-projects py-5 py-lg-11 py-xl-12" >
-      <div class="d-flex flex-column gap-5 gap-xl-11">
+      <section style="background-color: rgb(12, 12, 12); padding-top: 0;" class="featured-projects py-5 py-lg-11 py-xl-12" >
+      <div class="d-flex flex-column gap-5">
         <div class="container">
           <div class="row gap-7 gap-xl-0">
                       <div class="col-xl-4 col-xxl-4">
@@ -148,45 +128,39 @@ decoding="async">
 
                   </div>
           </div>
-            <div class="col-xl-8 col-xxl-7">
+            <div id="usluge" class="col-xl-8 col-xxl-7">
               <div class="row">
                 <div class="col-xxl-8">
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 class="mb-0">Naše usluge koje nudimo</h2>
-                    <p class="fs-5 mb-0 cigi">Nudimo multimedijske usluge podijeljene u tri glavna područja, prilagođene potrebama modernog tržišta. Unutar svakog segmenta
-                      pružamo dodatne specijalizirane usluge, od ideje i planiranja do realizacije i promocije. Naš cilj je klijentima osigurati kompletnu multimedijsku
-                      produkciju na jednom mjestu, uz profesionalnost, kreativnost i vrhunsku kvalitetu.</p>
+                    <h2 class="mb-0">Red Stripes Promo Video</h2>
+                    <p class="fs-5 mb-0 cigi"></p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>  
-<div class="container">
-
-<div class="row justify-content-center">
-
-<div class="col-lg-8 col-xl-10">
-
-<div class="video-wrapper" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-
-<iframe
-src="https://www.youtube.com/embed/kgkk6Rd_eVc?=1&loop=1&playlist=kgkk6Rd_eVc&controls=0&modestbranding=1&rel=0"
-title="RED STRIPES video"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-
-</iframe>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
+      <div style="align-items: center;" class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 mb-6 mx-auto">
+            <div class="portfolio d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
+              data-aos-duration="1000">
+              <div class="portfolio-img position-relative overflow-hidden">
+                <img src="/assets/images/usluge/foto.jpg" alt="" class="img-fluid w-100">
+                <div class="portfolio-overlay">
+                <a href="https://www.youtube.com/watch?v=co1de0gAMg4&t=5s" target="_blank" rel="noopener noreferrer"
+                    class="position-absolute top-50 start-50 translate-middle round-64 rounded-circle hstack justify-content-center krugic">
+                    <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark strijela"></iconify-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
 
 
     <!--  Featured Projects Section -->
@@ -905,31 +879,6 @@ allowfullscreen>
   <script src="assets/libs/custom.js"></script>
   <!-- solar icons -->
   <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
-<script>
-
-const slides = document.querySelectorAll(".banner-slide");
-
-let index = 0;
-
-setInterval(()=>{
-
-let current = slides[index];
-
-index = (index + 1) % slides.length;
-
-let next = slides[index];
-
-next.classList.add("active");
-
-setTimeout(()=>{
-
-current.classList.remove("active");
-
-},2000); // mora biti isto kao CSS transition
-
-},4000); // koliko dugo stoji slika
-
-</script>
 </body>
 
 </html>
