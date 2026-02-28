@@ -77,24 +77,5 @@ $(function () {
 		once: true,
 	});
 
-
-    document.addEventListener("DOMContentLoaded", function () {
-
-    const video = document.querySelector("video");
-
-    if(video){
-
-    video.play().catch(() => {
-
-    document.addEventListener("touchstart", () => {
-    video.play();
-    }, { once:true });
-
-    });
-
-    }
-
-    });
-
 });
 
