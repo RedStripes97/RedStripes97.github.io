@@ -17105,4 +17105,10 @@ align-items:center;
     display: block;
   }
 
+  
+}
+
+video{
+object-fit:cover;
+
 }
