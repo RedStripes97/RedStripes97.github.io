@@ -1,10 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
-/*!
- * Bootstrap  v5.3.6 (https://getbootstrap.com/)
- * Copyright 2011-2025 The Bootstrap Authors
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root,
 [data-bs-theme=light] {
   --bs-blue: #ff0000;
@@ -17106,4 +17102,19 @@ align-items:center;
   }
 
   
+}
+
+.hero-title{
+
+display:flex;
+justify-content:center; /* centar horizontalno */
+align-items:center;
+padding-bottom: 70px;
+
+}
+
+.hero-logo{
+max-width:1000px; /* veličina slike */
+width:100%;
+height:auto;
 }
