@@ -32,10 +32,10 @@
       <div class="header-wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
           <a href="index.html" class="logo-white">
-            <img src="assets/images/logos/logo-light.png" alt="logo" class="img-fluid">
+            <img src="assets/images/logos/logo-red.svg" alt="logo" class="img-fluid-logo">
           </a>
           <a href="index.html" class="logo-dark">
-            <img src="assets/images/logos/logo-light.png" alt="logo" class="img-fluid">
+            <img src="assets/images/logos/logo-red.svg" alt="logo" class="img-fluid-logo">
           </a>
         </div>
         <div class="d-flex align-items-center gap-4">
@@ -45,7 +45,7 @@
             <button
               class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
               type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-              <iconify-icon icon="solar:hamburger-menu-line-duotone" class="menu-icon fs-8 text-dark"></iconify-icon>
+              <iconify-icon icon="heroicons-outline:bars-3" class="menu-icon fs-8 text-dark" aria-hidden="true"></iconify-icon>
             </button>
             <ul class="dropdown-menu dropdown-menu-end p-4">
               <div class="d-flex flex-column gap-6">
@@ -95,23 +95,23 @@
 
     <!--  Banner Section -->
     <section id="Goreje" class="banner-section position-relative d-flex align-items-end min-vh-100">
-      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay muted loop playsinline>
+
+      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover video-desktop" autoplay muted loop playsinline>
         <source src="/assets/images/backgrounds/zer.mp4" type="video/mp4" />
       </video>
+
+      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover video-mobile" autoplay muted loop playsinline>
+        <source src="/assets/images/backgrounds/zer_mob.mp4" type="video/mp4" />
+      </video>
+
       <div class="container">
         <div class="d-flex flex-column gap-4 pb-8 position-relative z-1">
           <div class="row align-items-center">
             <div class="col-xl-4">
-              <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
-                data-aos-duration="1000">
-                <img style="height: 50px" src="assets/images/svgs/primary-leaf.png" alt="" class="img-fluid animate-spin">
-                <p class="mb-0 text-white fs-5 text-opacity-70">Video produkcija, fotografija, grafički dizajn i kreativni projekti<span
-                    class="text-primary"> u Đakovu i Hrvatskoj.</span> Profesionalna ali moderna multimedijska rješenja.</p>
+              <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"></div>
               </div>
-            </div>
-          </div>
-          <div class="d-flex align-items-end gap-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <h1 class="mb-0 fs-16 text-white lh-1">MULTIMEDIA STUDIO</h1>
+          <div class="d-flex align-items-end gap-3 text-align: center;" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <h1 class="mb-0 text-white lh-1" style="text-align: center;">MULTIMEDIA STUDIO</h1>
             </a>
           </div>
         </div>
@@ -451,7 +451,7 @@
                 <div class="col-xxl-8">
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 class="mb-0">Naše usluge koje nudimo</h2>
+                    <h2 class="mb-0">Usluge koje nudimo</h2>
                     <p class="fs-5 mb-0 cigi">Nudimo multimedijske usluge podijeljene u tri glavna područja, prilagođene potrebama modernog tržišta. Unutar svakog segmenta
                       pružamo dodatne specijalizirane usluge, od ideje i planiranja do realizacije i promocije. Naš cilj je klijentima osigurati kompletnu multimedijsku
                       produkciju na jednom mjestu, uz profesionalnost, kreativnost i vrhunsku kvalitetu.</p>
@@ -698,77 +698,77 @@
           <div class="row gap-7 gap-lg-0">
             <div class="col-lg-4 col-xl-3 d-flex align-items-stretch">
               <div class="card bg-primary w-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
-                <div class="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
+                <div class="d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div class="d-flex flex-column gap-4">
-                    <p class="mb-0">Recenzija</p>
-                    <h4 class="mb-0">"Video nas je vratio ravno u taj dan, emocije, glazba i trenuci savršeno su uklopljeni. Suze radosnice su bile neizbježne, hvala vam za odličan video."</h4>
+                    <p style="text-align:left;" class="mb-0">Recenzija</p>
+                    <h4 style="font-size: 22px; text-align:left;" class="mb-0">"Video nas je vratio ravno u taj dan, emocije, glazba i trenuci savršeno su uklopljeni. Suze radosnice su bile neizbježne, hvala vam za odličan video."</h4>
                   </div>
                   <div class="hstack gap-3">
                     <img src="assets/images/testimonial/testimonial-1.jpg" alt=""
                       class="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60">
                     <div>
-                      <h5 class="mb-1 fw-normal">Blaž Jozić</h5>
-                      <p class="mb-0">Blaze Media d.o.o.</p>
+                      <h5 style="text-align:left;" class="mb-1">Blaž Jozić</h5>
+                      <p style="text-align:left;" class="mb-0">Blaze Media d.o.o.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-xl-6 d-flex align-items-stretch">
+            <div class="col-lg-4 col-xl-3 d-flex align-items-stretch">
               <div class="card bg-dark w-100" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                <div class="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
+                <div class="d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div class="d-flex flex-column gap-4">
-                    <p class="mb-0 text-white text-opacity-70">Recenzija</p>
-                    <h4 class="mb-0 text-white pe-xl-2">"Suradnja je bila iznimno profesionalna od prve ideje do finalnog rješenja. Dizajn je točno pogodio naš brend i premašio očekivanja, jedino boje prejarke."</h4>
-                    <div class="hstack gap-2">
-                      <ul class="list-unstyled mb-0 hstack gap-1">
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-bold"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                        <li><a class="hstack" href="javascript:void(0)"><iconify-icon icon="solar:star-line-duotone"
-                              class="fs-6 text-white"></iconify-icon></a></li>
-                      </ul>
-                      <h6 class="mb-0 text-white fw-medium">4.0</h6>
-                    </div>
+                    <p style="text-align:left;" class="mb-0">Recenzija</p>
+                    <h4 style="font-size: 22px;" class="mb-0">"Video nas je vratio ravno u taj dan, emocije, glazba i trenuci savršeno su uklopljeni. Suze radosnice su bile neizbježne, hvala vam za odličan video."</h4>
                   </div>
-                  <div class="d-flex align-items-center justify-content-between">
-                    <div class="hstack gap-3">
-                      <img src="assets/images/testimonial/testimonial-2.jpg" alt=""
-                        class="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60">
-                      <div>
-                        <h5 class="mb-1 fw-normal text-white">Karlo Ivić</h5>
-                        <p class="mb-0 text-white text-opacity-70">Movie Luts direktor</p>
-                      </div>
+                  <div class="hstack gap-3">
+                    <img src="assets/images/testimonial/testimonial-2.jpg" alt=""
+                      class="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60">
+                    <div>
+                      <h5 style="text-align:left;" class="mb-1">Blaž Jozić</h5>
+                      <p style="text-align:left;" class="mb-0">Blaze Media d.o.o.</p>
                     </div>
-                    <span><img src="assets/images/testimonial/quete.svg" alt="quete"
-                        class="img-fluid flex-shrink-0"></span>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 col-xl-3 d-flex align-items-stretch">
               <div class="card w-100" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
-                <div class="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
+                <div class="d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div class="d-flex flex-column gap-4">
-                    <p style="color: black;" class="mb-0">Recenzija</p>
-                    <h4 style="color: black;" class="mb-0">"Glas je jasan, ugodan i savršeno prilagođen našem projektu. Isporuka brza i bez ikakvih komplikacija."</h4>
+                    <p style="color: black; text-align:left;" class="mb-0">Recenzija</p>
+                    <h4 style="color: black; font-size: 22px ; text-align:left;" class="mb-0">"Video nas je vratio ravno u taj dan, emocije, glazba i trenuci savršeno su uklopljeni. Suze radosnice su bile neizbježne, hvala vam za odličan video."</h4>
                   </div>
                   <div class="hstack gap-3">
                     <img src="assets/images/testimonial/testimonial-3.jpg" alt=""
                       class="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60">
                     <div>
-                      <h5 style="color: black;" class="mb-1 fw-normal">Grgo Leić</h5>
-                      <p style="color: black;" class="mb-0">Student</p>
+                      <h5 style="color: black; text-align:left;" class="mb-1">Blaž Jozić</h5>
+                      <p style="color: black; text-align:left;" class="mb-0">Blaze Media d.o.o.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="col-lg-4 col-xl-3 d-flex align-items-stretch">
+              <div class="bg-primary card w-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="d-flex flex-column gap-5 gap-xl-11 justify-content-between">
+                  <div class="d-flex flex-column gap-4">
+                    <p style="text-align:left;" class="mb-0">Recenzija</p>
+                    <h4 style="font-size: 22px; text-align:left;" class="mb-0">"Video nas je vratio ravno u taj dan, emocije, glazba i trenuci savršeno su uklopljeni. Suze radosnice su bile neizbježne, hvala vam za odličan video."</h4>
+                  </div>
+                  <div class="hstack gap-3">
+                    <img src="assets/images/testimonial/testimonial-1.jpg" alt=""
+                      class="img-fluid rounded-circle overflow-hidden flex-shrink-0" width="60" height="60">
+                    <div>
+                      <h5 style="text-align:left;" class="mb-1">Blaž Jozić</h5>
+                      <p style="text-align:left;" class="mb-0">Blaze Media d.o.o.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -834,7 +834,7 @@
       <div class="row">
         <div class="col-xl-5 mb-8 mb-xl-0">
           <div class="d-flex flex-column gap-8 pe-xl-5">
-          <img style="width: 70%;" src="assets/images/logos/logo-light.png" alt="logo" class="img-fluid">
+          <img style="width: 70%;" src="assets/images/logos/logo-red.svg" alt="logo" class="img-fluid">
             <div class="d-flex flex-column gap-2 bela">
               <a target="_blank" class="link-hover hstack gap-3 text-white fs-5 bela">
                 <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary bela"></iconify-icon>

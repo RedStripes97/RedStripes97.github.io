@@ -31,7 +31,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #ff0000;
-  --bs-secondary: #1f2a2e;
+  --bs-secondary: #810000;
   --bs-light: rgba(31, 42, 46, 0.12);
   --bs-dark: #1F2A2E;
   --bs-muted: rgba(31, 42, 46, 0.6);
@@ -222,7 +222,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.925rem + 8.1vw);
+  font-size: calc(1.50rem + 8.1vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
@@ -692,10 +692,17 @@ progress {
   content: "— ";
 }
 
+.img-fluid-logo {
+  width: 400px;      /* povećaj po želji */
+  max-width: 100%;   /* ostaje responzivno */
+  height: auto;      /* zadržava proporcije */
+}
+
 .img-fluid {
   max-width: 100%;
   height: 100%;
-}
+}   
+
 
 .img-fluid2 {
   max-width: 100%;
@@ -17074,4 +17081,28 @@ align-items:center;
         padding-top: 100px !important;
         padding-bottom: 100x !important;
     }
+}
+
+.hero-video video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Mobile je sakriven po defaultu */
+.video-mobile {
+  display: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .video-desktop {
+    display: none;
+  }
+
+  .video-mobile {
+    display: block;
+  }
+
 }
