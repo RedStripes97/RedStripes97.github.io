@@ -1,1 +1,13 @@
-<svg id="Layer_1" enable-background="new 0 0 1000 1000" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><g><path d="m500 1000c-276.1 0-500-223.9-500-500 0-276.1 223.9-500 500-500 276.1 0 500 223.9 500 500 0 276.1-223.9 500-500 500z"/><path id="f" d="m630 1000v-387.3h130l19.5-150.9h-149.5v-96.4c0-43.7 12.1-73.5 74.8-73.5h79.9v-134.9c-13.8-1.8-61.3-5.9-116.5-5.9-115.2 0-194.1 70.3-194.1 199.5v111.3h-130.3v150.9h130.3v387.2z" fill="#fff"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,0,24)" d="M0 24H24V0H0Z"/>
+</clipPath>
+</defs>
+<g inkscape:groupmode="layer" inkscape:label="Layer 1">
+<g clip-path="url(#clip_1)">
+<path transform="matrix(1,0,0,-1,12,23.4064)" d="M0 0C-6.299 0-11.406 5.108-11.406 11.406-11.406 17.705-6.299 22.813 0 22.813 6.299 22.813 11.406 17.705 11.406 11.406 11.406 5.108 6.299 0 0 0"/>
+<path transform="matrix(1,0,0,-1,14.9657,23.4064)" d="M0 0V8.835H2.966L3.411 12.278H0V14.477C0 15.474 .276 16.154 1.706 16.154H3.529V19.231C3.214 19.272 2.131 19.366 .871 19.366-1.757 19.366-3.557 17.762-3.557 14.815V12.276H-6.529V8.833H-3.557V0Z" fill="#ffffff"/>
+</g>
+</g>
+</svg>

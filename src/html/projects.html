@@ -22,18 +22,16 @@
   <link rel="stylesheet" href="../assets/css/styles.css" />
 </head>
 
-<body>
+<body style="background-color: #0c0c0c;">
 
   <!-- Header -->
   <header class="header border-4 border-primary border-top position-fixed start-0 top-0 w-100">
     <div class="container">
       <div class="header-wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
-          <a href="/index.html" class="logo-white">
-            <img src="/assets/images/logos/logo-light.png" alt="logo" class="img-fluid">
           </a>
           <a href="/index.html" class="logo-dark">
-            <img src="/assets/images/logos/logo-light.png" alt="logo" class="img-fluid">
+            <img src="/assets/images/logos/logo-red.svg" alt="logo" class="img-fluid-logo">
           </a>
         </div>
         <div class="d-flex align-items-center gap-4">
@@ -91,83 +89,182 @@
   <div class="page-wrapper overflow-hidden">
 
     <!--  Banner Section -->
-    <section id="Goreje" class="banner-section position-relative d-flex align-items-end min-vh-100">
-      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay muted loop playsinline>
-        <source src="/assets/images/backgrounds/banner-video4.mp4" type="video/mp4" />
+    <section style="background-color: #0c0c0c;"  id="Goreje" class="banner-section position-relative d-flex align-items-end min-vh-100">
+
+      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover video-desktop" autoplay muted loop playsinline>
+        <source src="/assets/images/backgrounds/zer1.mp4" type="video/mp4" />
       </video>
+
+      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover video-mobile" autoplay muted loop playsinline>
+        <source src="/assets/images/backgrounds/zer_mob1.mp4" type="video/mp4" />
+      </video>
+
       <div class="container">
-        <div class="d-flex flex-column gap-4 pb-8 position-relative z-1">
+        <div class="d-flex flex-column position-relative z-1">
           <div class="row align-items-center">
-            <div class="col-xl-4">
-              <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
-                data-aos-duration="1000">
-                <img style="height: 50px" src="/assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin">
-                <p class="mb-0 text-white fs-5 text-opacity-70">Što god radite, činite to zdušno, <span
-                    class="text-primary">kao Gospodinu,</span> a ne ljudima. (Kološanima 3,23)</p>
+              <div class="hero-title">
+              <img src="/assets/images/logos/naslovic1.png" alt="Multimedia Studio" class="hero-logo">
               </div>
             </div>
-          </div>
-          <div class="d-flex align-items-end gap-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <h1 class="mb-0 fs-16 text-white lh-1">PROJEKTI</h1>
-            </a>
           </div>
         </div>
       </div>
     </section>
 
-<section style="background-color: #0c0c0c;" class="portfolio">
-  <div class="portfolio-grid">
+<section class="custom-grid" dat>
 
-    <div data-aos="fade-up" data-aos-delay="100" class="portfolio-item wide">
-      <img src="/assets/images/portfolio/por 18.jpg" alt="">
+  <div class="box square1">
+    <img src="/assets/images/projekti/a3.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 1</h3>
+      <p>Kratki opis projekta ovdje.</p>
     </div>
-
-    <div data-aos="fade-up" data-aos-delay="200" class="portfolio-item tall">
-      <img src="/assets/images/portfolio/por 19.jpg" alt="">
-    </div>
-
-    <div data-aos="fade-up" data-aos-delay="300" class="portfolio-item">
-      <img src="/assets/images/portfolio/por 20.jpg" alt="">
-    </div>
-
-    <div data-aos="fade-up" data-aos-delay="400" class="portfolio-item big">
-      <img src="/assets/images/portfolio/por 21.jpg" alt="">
-    </div>
-
-    <div data-aos="fade-up" data-aos-delay="500" class="portfolio-item">
-      <img src="/assets/images/portfolio/por 22.jpg" alt="">
-    </div>
-
-    <div data-aos="fade-up" data-aos-delay="600" class="portfolio-item tall">
-      <img src="/assets/images/portfolio/por 24.jpg" alt="">
-    </div>
-
-        <div data-aos="fade-up" data-aos-delay="700" class="portfolio-item wide">
-      <img src="/assets/images/portfolio/por 18.jpg" alt="">
-    </div>
-
-    <div data-aos="fade-up" data-aos-delay="800" class="portfolio-item tall">
-      <img src="/assets/images/portfolio/por 19.jpg" alt="">
-    </div>
-
-    <div data-aos="fade-up" data-aos-delay="900" class="portfolio-item">
-      <img src="/assets/images/portfolio/por 20.jpg" alt="">
-    </div>
-
-    <div data-aos="fade-up" data-aos-delay="1000" class="portfolio-item big">
-      <img src="/assets/images/portfolio/por 21.jpg" alt="">
-    </div>
-
-    <div data-aos="fade-up" data-aos-delay="1100" class="portfolio-item">
-      <img src="/assets/images/portfolio/por 22.jpg" alt="">
-    </div>
-
-    <div data-aos="fade-up" data-aos-delay="1200" class="portfolio-item tall">
-      <img src="/assets/images/portfolio/por 24.jpg" alt="">
-    </div>
-
-    
   </div>
+
+  <div class="box horizontal1">
+    <img src="/assets/images/projekti/b1.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 2</h3>
+      <p>Video produkcija i montaža.</p>
+    </div>
+  </div>
+
+  <div class="box vertical">
+    <img src="/assets/images/projekti/c1.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 3</h3>
+      <p>Branding i vizualni identitet.</p>
+    </div>
+  </div>
+
+  <div class="box square2">
+    <img src="/assets/images/projekti/a1.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 4</h3>
+      <p>Fotografija proizvoda.</p>
+    </div>
+  </div>
+
+  <div class="box square3">
+    <img src="/assets/images/projekti/a2.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 5</h3>
+      <p>Društvene mreže kampanja.</p>
+    </div>
+  </div>
+
+  <div class="box horizontal2">
+    <img src="/assets/images/projekti/b2.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 6</h3>
+      <p>Kreativni marketinški projekt.</p>
+    </div>
+  </div>
+
+</section>
+
+<section class="custom-grid">
+
+  <div class="box horizontal1">
+    <img src="/assets/images/projekti/b3.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 2</h3>
+      <p>Video produkcija i montaža.</p>
+    </div>
+  </div>
+
+    <div class="box square1">
+    <img src="/assets/images/projekti/a4.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 1</h3>
+      <p>Kratki opis projekta ovdje.</p>
+    </div>
+  </div>
+
+  <div class="box vertical">
+    <img src="/assets/images/projekti/c2.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 3</h3>
+      <p>Branding i vizualni identitet.</p>
+    </div>
+  </div>
+
+  <div class="box square2">
+    <img src="/assets/images/projekti/a5.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 4</h3>
+      <p>Fotografija proizvoda.</p>
+    </div>
+  </div>
+
+  <div class="box square3">
+    <img src="/assets/images/projekti/a6.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 5</h3>
+      <p>Društvene mreže kampanja.</p>
+    </div>
+  </div>
+
+  <div class="box horizontal2">
+    <img src="/assets/images/projekti/b4.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 6</h3>
+      <p>Kreativni marketinški projekt.</p>
+    </div>
+  </div>
+
+</section>
+
+<section class="custom-grid">
+
+  <div class="box horizontal1" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
+    <img src="/assets/images/projekti/b5.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 2</h3>
+      <p>Video produkcija i montaža.</p>
+    </div>
+  </div>
+
+    <div class="box square1" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+    <img src="/assets/images/projekti/a7.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 1</h3>
+      <p>Kratki opis projekta ovdje.</p>
+    </div>
+  </div>
+
+  <div class="box vertical" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+    <img src="/assets/images/projekti/c3.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 3</h3>
+      <p>Branding i vizualni identitet.</p>
+    </div>
+  </div>
+
+  <div class="box square2" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+    <img src="/assets/images/projekti/a8.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 4</h3>
+      <p>Fotografija proizvoda.</p>
+    </div>
+  </div>
+
+  <div class="box square3" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+    <img src="/assets/images/projekti/a9.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 5</h3>
+      <p>Društvene mreže kampanja.</p>
+    </div>
+  </div>
+
+  <div class="box horizontal2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+    <img src="/assets/images/projekti/b6.jpg" alt="">
+    <div class="overlay">
+      <h3>Projekt 6</h3>
+      <p>Kreativni marketinški projekt.</p>
+    </div>
+  </div>
+
 </section>
 
   <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
@@ -175,7 +272,7 @@
       <div class="row">
         <div class="col-xl-5 mb-8 mb-xl-0">
           <div class="d-flex flex-column gap-8 pe-xl-5">
-          <img style="width: 70%;" src="/assets/images/logos/logo-light.png" alt="logo" class="img-fluid">
+          <img style="width: 70%;" src="/assets/images/logos/logo-red.svg" alt="logo" class="img-fluid">
             <div class="d-flex flex-column gap-2 bela">
               <a target="_blank" class="link-hover hstack gap-3 text-white fs-5 bela">
                 <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary bela"></iconify-icon>
