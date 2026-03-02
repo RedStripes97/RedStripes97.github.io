@@ -17100,12 +17100,12 @@ align-items:center;
 display:flex;
 justify-content:center; /* centar horizontalno */
 align-items:center;
-padding-bottom: 70px;
+padding-bottom: 50px;
 
 }
 
 .hero-logo{
-max-width:1000px; /* veličina slike */
+max-width:1100px; /* veličina slike */
 width:100%;
 height:auto;
 }
@@ -17135,7 +17135,7 @@ padding-bottom: 150px;
 }
 
 .hero-logo{
-max-width:1000px; /* veličina slike */
+max-width:1100px; /* veličina slike */
 width:100%;
 height:auto;
 }
