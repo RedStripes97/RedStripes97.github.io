@@ -59,11 +59,21 @@
 
   <div class="btn-group d-lg-none">
     
-            <button
-              class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
-              type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-              <iconify-icon icon="solar:hamburger-menu-line-duotone" class="menu-icon fs-8 text-dark"></iconify-icon>
-            </button>
+<button
+  class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
+  type="button"
+  data-bs-toggle="dropdown"
+  data-bs-auto-close="true"
+  aria-expanded="false"
+  aria-haspopup="true"
+  aria-label="Otvori izbornik">
+
+  <iconify-icon 
+    icon="solar:hamburger-menu-line-duotone" 
+    class="menu-icon fs-8 text-dark">
+  </iconify-icon>
+
+</button>
             <ul class="dropdown-menu dropdown-menu-end p-4">
               <div class="d-flex flex-column gap-6">
                 <div class="hstack justify-content-between border-bottom pb-6">
@@ -663,7 +673,7 @@
       <div class="row">
         <div class="col-xl-5 mb-8 mb-xl-0">
           <div class="d-flex flex-column gap-8 pe-xl-5">
-          <img style="width: 70%;" src="assets/images/logos/logo-red.svg" alt="logo" class="img-fluid">
+          <img style="width: 70%;" src="/assets/images/logos/logo-red.svg" alt="logo" class="img-fluid">
             <div class="d-flex flex-column gap-2 bela">
               <a class="link-hover hstack gap-3 text-white fs-5 bela">
                 <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary bela"></iconify-icon>
