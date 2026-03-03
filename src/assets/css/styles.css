@@ -16433,13 +16433,13 @@ textarea.form-control-lg {
 }
 
 .header {
-  padding: 37px 0;
+  padding: 36px 0;
   z-index: 99;
 
 }
 @media (max-width: 991.98px) {
   .header {
-    padding: 21px 0;
+    padding: 24px 0;
   }
 }
 .header.fixed-header {
