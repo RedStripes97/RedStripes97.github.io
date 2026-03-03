@@ -16433,18 +16433,17 @@ textarea.form-control-lg {
 }
 
 .header {
-  padding: 10px 0;
+  padding: 37px 0;
   z-index: 99;
-  transition: all 0.5s ease-in-out;
-  animation: 0.5s ease-in-out 0s normal none 1 running fadeInDown;
+
 }
 @media (max-width: 991.98px) {
   .header {
-    padding: 10px 0;
+    padding: 21px 0;
   }
 }
 .header.fixed-header {
-  padding: 10px 0;
+  padding: 15px 0;
   background-color: rgba(0, 0, 0, 0.7); /* prozirna crna */
   backdrop-filter: blur(10px);         /* zamućenje pozadine */
   -webkit-backdrop-filter: blur(10px); /* Safari podrška */
@@ -17148,6 +17147,10 @@ height:auto;
 color: #000;
   }
 
+.svijetko {
+color: #ffffff;
+  }
+
   .img-fluids {
   max-width: 70%;
   height: auto;
@@ -17252,23 +17255,58 @@ color: #000;
     flex-direction: column;
     justify-content: flex-end;
     padding: 30px;
-    background: linear-gradient(to top, rgba(0,0,0,0.85), transparent 60%);
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent 150%);
     color: white;
     opacity: 0;
-    transition: opacity 0.4s ease;
+    transition: opacity 0.3s ease;
 }
 
 .overlay h3 {
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 8px;
     font-weight: 600;
+    text-shadow: 3px 3px 7px black;
 }
 
 .overlay p {
-    font-size: 14px;
-    opacity: 0.9;
+    font-size: 17px;
+    opacity: 1;
+    text-shadow: 3px 3px 7px black;
 }
 
 .box:hover .overlay {
     opacity: 1;
+}
+
+.nasic {
+    font-size: 20px;
+}
+
+.video-section {
+  padding: 80px 0;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  max-width: 1100px;   /* ograničava širinu */
+  margin: 0 auto;      /* centrira grid */
+}
+
+.video-item iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 14px;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.custom-red {
+background-color: red;
 }
