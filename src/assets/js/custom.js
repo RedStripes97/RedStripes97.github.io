@@ -77,5 +77,49 @@ $(function () {
 		once: true,
 	});
 
+const containers = document.querySelectorAll('.ba-container');
+
+containers.forEach(container => {
+
+const slider = container.querySelector('.ba-slider');
+const after = container.querySelector('.after');
+
+let active = false;
+
+function moveSlider(clientX){
+
+const rect = container.getBoundingClientRect();
+let x = clientX - rect.left;
+
+if(x < 0) x = 0;
+if(x > rect.width) x = rect.width;
+
+let percent = (x / rect.width) * 100;
+
+after.style.clipPath = `inset(0 ${100-percent}% 0 0)`;
+slider.style.left = percent + "%";
+
+}
+
+// desktop
+container.addEventListener("mousedown", () => active = true);
+window.addEventListener("mouseup", () => active = false);
+
+window.addEventListener("mousemove", (e)=>{
+if(!active) return;
+moveSlider(e.clientX);
+});
+
+// mobile
+container.addEventListener("touchstart", ()=> active=true);
+window.addEventListener("touchend", ()=> active=false);
+
+window.addEventListener("touchmove",(e)=>{
+if(!active) return;
+moveSlider(e.touches[0].clientX);
+});
+
+});
+    
 });
 
