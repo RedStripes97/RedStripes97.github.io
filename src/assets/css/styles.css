@@ -75,13 +75,13 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: rgba(31, 42, 46, 0.7);
   --bs-body-color-rgb: 31, 42, 46;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #0c0c0c;;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
   --bs-secondary-color: rgba(31, 42, 46, 0.75);
   --bs-secondary-color-rgb: 31, 42, 46;
-  --bs-secondary-bg: #F4F8FA;
+  --bs-secondary-bg: #0c0c0c;;
   --bs-secondary-bg-rgb: 244, 248, 250;
   --bs-tertiary-color: rgba(31, 42, 46, 0.5);
   --bs-tertiary-color-rgb: 31, 42, 46;
@@ -126,7 +126,7 @@
   --bs-body-color-rgb: 31, 42, 46;
   --bs-body-bg: #212529;
   --bs-body-bg-rgb: 33, 37, 41;
-  --bs-emphasis-color: #fff;
+  --bs-emphasis-color: #0c0c0c;;
   --bs-emphasis-color-rgb: 255, 255, 255;
   --bs-secondary-color: rgba(31, 42, 46, 0.75);
   --bs-secondary-color-rgb: 31, 42, 46;
@@ -16919,14 +16919,14 @@ ul {
 
 max-width:1200px;
 margin:auto;
-margin-bottom:80px;
+margin-bottom:15px;
 
 }
 
 .section h2{
 
 text-align:center;
-margin-bottom:40px;
+margin-bottom:10px;
 font-size:34px;
 letter-spacing:2px;
 
