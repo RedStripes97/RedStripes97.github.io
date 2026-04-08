@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>RED STRIPES | Fotografiranje | Foto i Video produkcija i marketing</title>
-<meta name="description" content="RED STRIPES multimedia studio — video produkcija, fotografija, grafički dizajn i kreativni projekti u Đakovu i Hrvatskoj. Profesionalna multimedijska rješenja.">
-<meta name="keywords" content="Video produkcija Đakovo, multimedia studio, fotografija, grafički dizajn, video snimanje, RED STRIPES">
+<title>RED STRIPES | Video igre| Kreiramo i jednsotavne video igre i sve materijale za njih.</title>
+<meta name="description" content="RED STRIPES multimedia studio — Video igre Unity, video igre s automobilima ili 2D video igra i kreativni projekti u Đakovu i Hrvatskoj. Profesionalna multimedijska rješenja.">
+<meta name="keywords" content="Video igre Đakovo, multimedia studio, fotografija, grafički dizajn, video snimanje, RED STRIPES">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.redstripes.hr">
 <meta property="og:title" content="RED STRIPES Multimedia Studio">
@@ -17,33 +17,65 @@
 <meta property="og:image" content="https://https://www.redstripes.hr/assets/images/logos/logo-light.png">
 
   <link rel="shortcut icon" type="image/png" href="/assets/images/logos/favicon2.svg" />
-  <link rel="stylesheet" href="../assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="../assets/libs/aos-master/dist/aos.css">
-  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="/assets/libs/owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="/assets/libs/aos-master/dist/aos.css">
+  <link rel="stylesheet" href="/assets/css/styles.css" />
 </head>
 
-<body>
+<body style="background-color: #0c0c0c;">
 
-  <!-- Header -->
+   <!-- Header -->
   <header class="header border-4 border-primary border-top position-fixed start-0 top-0 w-100">
     <div class="container">
       <div class="header-wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
-          <a href="/index.html" class="logo-white">
-            <img src="/assets/images/logos/logo-light.png" alt="logo" class="img-fluid">
-          </a>
           <a href="/index.html" class="logo-dark">
-            <img src="/assets/images/logos/logo-light.png" alt="logo" class="img-fluid">
+            <img src="/assets/images/logos/logo-red.svg" alt="logo" class="img-fluid-logo">
           </a>
         </div>
         <div class="d-flex align-items-center gap-4">
+          
 
-          <div class="btn-group">
-            <button
-              class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
-              type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-              <iconify-icon icon="solar:hamburger-menu-line-duotone" class="menu-icon fs-8 text-dark"></iconify-icon>
-            </button>
+  <ul class="header-menu list-unstyled mb-0 d-none d-lg-flex gap-4 align-items-center">
+    <li>
+      <a href="/index.html" class=" mb-0 fw-bold text-decoration-none svijetko nasic">POČETNA</a>
+    </li>
+    <li>
+      <a href="/html/onama.html" class=" mb-0  fw-bold text-decoration-none svijetko nasic">O NAMA</a>
+    </li>
+    <li>
+      <a href="/html/projects.html" class=" mb-0  fw-bold text-decoration-none svijetko nasic">PROJEKTI</a>
+    </li>
+    <li>
+      <a href="/html/vdeosi.html" class=" mb-0  fw-bold text-decoration-none svijetko nasic">VIDEO</a>
+    </li>
+    <li>
+      <a href="/html/projects-detail.html" class=" mb-0 fw-bold text-decoration-none svijetko nasic">CJENIK</a>
+    </li>
+    <li>
+      <a href="/index.html#Kontakt" class=" mb-0 fw-bold text-decoration-none svijetko nasic">KONTAKT</a>
+    </li>
+    <li>
+      <a href="/index.html#usluge12" class=" mb-0 fw-bold text-decoration-none svijetko nasic">IZLAZ</a>
+    </li>
+  </ul>
+
+  <div class="btn-group d-lg-none">
+<button
+  class="btn btn-secondary toggle-menu round-45 p-2 d-flex align-items-center justify-content-center bg-white rounded-circle"
+  type="button"
+  data-bs-toggle="dropdown"
+  data-bs-auto-close="true"
+  aria-expanded="false"
+  aria-haspopup="true"
+  aria-label="Otvori izbornik">
+
+  <iconify-icon 
+    icon="solar:hamburger-menu-line-duotone" 
+    class="menu-icon fs-8 text-dark">
+  </iconify-icon>
+
+</button>
             <ul class="dropdown-menu dropdown-menu-end p-4">
               <div class="d-flex flex-column gap-6">
                 <div class="hstack justify-content-between border-bottom pb-6">
@@ -68,6 +100,11 @@
                           class="img-fluid animate-spin">Projekti</a>
                     </li>
                     <li class="header-item">
+                      <a href="/html/vdeosi.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Video</a>
+                    </li>
+                    <li class="header-item">
                       <a href="/html/projects-detail.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                           src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                           class="img-fluid animate-spin">Cjenik</a>
@@ -75,7 +112,7 @@
                     <li class="header-item">
                       <a href="/index.html#Kontakt" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                           src="/assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                          class="img-fluid animate-spin">Kontakt</a>
+                          class="img-fluid animate-spin" href="#Kontakt">Kontakt</a>
                     </li>
                     <li class="header-item">
                       <a href="/index.html#usluge12" aria-current="true"
@@ -91,103 +128,213 @@
       </div>
     </div>
   </header>
-
+ 
   <!--  Page Wrapper -->
   <div class="page-wrapper overflow-hidden">
 
     <!--  Banner Section -->
     <section id="Goreje" class="banner-section position-relative d-flex align-items-end min-vh-100">
-      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay muted loop playsinline>
-        <source src="/assets/images/backgrounds/banner-video4.mp4" type="video/mp4" />
+
+      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover video-desktop" autoplay muted loop playsinline>
+        <source src="/assets/images/backgrounds/zer5.mp4" type="video/mp4" />
       </video>
+
+      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover video-mobile" autoplay muted loop playsinline>
+        <source src="/assets/images/backgrounds/zer_mob5.mp4" type="video/mp4" />
+      </video>
+
       <div class="container">
-        <div class="d-flex flex-column gap-4 pb-8 position-relative z-1">
+        <div class="d-flex flex-column position-relative z-1">
           <div class="row align-items-center">
-            <div class="col-xl-4">
-              <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
-                data-aos-duration="1000">
-                <img style="height: 50px" src="/assets/images/svgs/primary-leaf.svg" alt="" class="img-fluid animate-spin">
-                <p class="mb-0 text-white fs-5 text-opacity-70">Što god radite, činite to zdušno, <span
-                    class="text-primary">kao Gospodinu,</span> a ne ljudima. (Kološanima 3,23)</p>
+              <div class="hero-title">
+              <img src="/assets/images/logos/us12.png" alt="Multimedia Studio" class="hero-logo">
               </div>
             </div>
           </div>
-          <div class="d-flex align-items-end gap-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-            <h1 class="mb-0 fs-16 text-white lh-1">FOTOGRAFIRANJE</h1>
-            </a>
-          </div>
-           <a href="/index.html#usluge12" class="btn" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-           <span class="btn-text">IZLAZ</span>
-           <iconify-icon icon="lucide:arrow-up-right"
-           class="btn-icon bg-white text-dark round-52 rounded-circle hstack justify-content-center fs-7 shadow-sm"></iconify-icon>
-          </a>
         </div>
       </div>
     </section>
 
-<section style="background-color: #0c0c0c;" class="portfolio">
-  <div class="portfolio-grid">
+        <div style="margin-top: 60px;" class="col-xl-8 col-xxl-7 mx-auto text-center">
+  <div class="d-flex flex-column gap-3" data-aos="fade-up" data-aos-delay="100">
+    <h2 class="mb-0 leoge">KREIRANJE VIDEO IGARA I MATERIJALA</h2>
+    <p class="duhast">
+        Video igre su vrlo popularan oblik zabave u današnjem svijetu. Igraju ih djeca, mladi i odrasli na računalima, konzolama i mobilnim uređajima.
+        Video igre omogućuju igračima da se zabave, razvijaju svoje vještine, rješavaju zadatke i komuniciraju s drugim igračima putem interneta.
+        Mi smo do sada napravili 3 video igre u 3D oruženju i jednu u 2D okruženju. Golf Dvica je prva i najveći projekt od vide igara, imate i link za preuzimanje instalacije igre.
+    </p>
+  </div>
+</div>
 
-    <div class="portfolio-item wide">
-      <img src="/assets/images/portfolio/por 18.jpg" alt="">
-    </div>
+<section style="margin-top: 30px;" class="pricing">
 
-    <div class="portfolio-item tall">
-      <img src="/assets/images/portfolio/por 19.jpg" alt="">
-    </div>
+    <a href="/html/projects-detail.html" class="cardic1 white" data-aos="fade-up" data-aos-delay="400">
 
-    <div class="portfolio-item">
-      <img src="/assets/images/portfolio/por 20.jpg" alt="">
-    </div>
+        <h2 class="miki1">VIDEO IGRE</h2>
+        <h2 class="miki2">3D MODELIRANJE</h2>
+    </a>
 
-    <div class="portfolio-item big">
-      <img src="/assets/images/portfolio/por 21.jpg" alt="">
-    </div>
+    <a href="/html/projects-detail.html" class="cardic1 white" data-aos="fade-up" data-aos-delay="500">
 
-    <div class="portfolio-item">
-      <img src="/assets/images/portfolio/por 22.jpg" alt="">
-    </div>
-
-    <div class="portfolio-item tall">
-      <img src="/assets/images/portfolio/por 24.jpg" alt="">
-    </div>
-
-        <div class="portfolio-item wide">
-      <img src="/assets/images/portfolio/por 18.jpg" alt="">
-    </div>
-
-    <div class="portfolio-item tall">
-      <img src="/assets/images/portfolio/por 19.jpg" alt="">
-    </div>
-
-    <div class="portfolio-item">
-      <img src="/assets/images/portfolio/por 20.jpg" alt="">
-    </div>
-
-    <div class="portfolio-item big">
-      <img src="/assets/images/portfolio/por 21.jpg" alt="">
-    </div>
-
-    <div class="portfolio-item">
-      <img src="/assets/images/portfolio/por 22.jpg" alt="">
-    </div>
-
-    <div class="portfolio-item tall">
-      <img src="/assets/images/portfolio/por 24.jpg" alt="">
-    </div>
-
+        <h2 class="miki1">VIDEO IGRE</h2>
+        <h2 class="miki2">DIZAJN GRAFIKA</h2>
+    </a>
     
+    <a href="/html/projects-detail.html" class="cardic1 white" data-aos="fade-up" data-aos-delay="600">
+
+        <h2 class="miki1">VIDEO IGRE</h2>
+        <h2 class="miki2">KREIRANJE GLAZBE</h2>
+    </a>
+
+    <a href="/html/projects-detail.html" class="cardic1 white" data-aos="fade-up" data-aos-delay="700">
+
+        <h2 class="miki1">VIDEO IGRE</h2>
+        <h2 class="miki2">KREIRANJE LEVELA</h2>
+    </a>
+</section>
+
+<section style="margin-top: 30px;" class="pricing">
+
+    <a href="/html/projects-detail.html" class="cardic1 white" data-aos="fade-up" data-aos-delay="400">
+
+        <h2 class="miki1">VIDEO IGRE</h2>
+        <h2 class="miki2">INTROI ZA IGRE</h2>
+    </a>
+
+    <a href="/html/projects-detail.html" class="cardic1 white" data-aos="fade-up" data-aos-delay="500">
+
+        <h2 class="miki1">VIDEO IGRE</h2>
+        <h2 class="miki2">ANIMIRANJE KAMERE</h2>
+    </a>
+    
+    <a href="/html/projects-detail.html" class="cardic1 white" data-aos="fade-up" data-aos-delay="600">
+
+        <h2 class="miki1">VIDEO IGRE</h2>
+        <h2 class="miki2">IZRADA TRAIKERA</h2>
+    </a>
+
+    <a href="/html/projects-detail.html" class="cardic1 white" data-aos="fade-up" data-aos-delay="700">
+
+        <h2 class="miki1">VIDEO IGRE</h2>
+        <h2 class="miki2">KREIRANJE SETUPA</h2>
+    </a>
+</section>
+
+
+<section style="background-color: rgb(12, 12, 12); padding-top: 0;" class="featured-projects py-5">
+  <div class="d-flex flex-column gap-5">
+    
+    <div class="container">
+      <div class="row gap-7 gap-xl-0">
+        
+        <div class="col-xl-4 col-xxl-4">
+          <div></div>
+        </div>
+
+        <div id="usluge" class="col-xl-8 col-xxl-7">
+          <div class="row">
+            <div class="col-xxl-8">
+              <div class="d-flex flex-column gap-6"
+                   data-aos="fade-up" data-aos-delay="100"  data-aos-duration="1000">
+                <h2 class="mb-0">INSTALACIJA VIDEO IGRE</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>  
+
+    <div style="align-items: center;" class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 mb-6 mx-auto">
+
+          <div class="portfolio d-flex flex-column gap-6"
+               data-aos="fade-up"
+               data-aos-delay="100"
+               data-aos-duration="1000">
+
+            <a href="https://drive.google.com/file/d/1qXgreFksrXHhmX7vr2UoizgeSKGq5b6a/view?usp=drive_link" target="_blank" class="portfolio-img d-block overflow-hidden">
+              <img src="/assets/images/ostalo/game/game1.jpg"
+                   alt=""
+                   class="img-fluid w-100 portfolio-hover">
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
+
+<section class="video-section">
+  <div class="container">
+    
+    <div class="video-grid">
+
+      <div class="video-item" data-aos="fade-up" data-aos-delay="500">
+        <iframe 
+          src="https://www.youtube-nocookie.com/embed/YlPDw-xtDBs"
+          title="YouTube video player"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="video-item" data-aos="fade-up" data-aos-delay="500">
+      <iframe 
+        src="https://www.youtube-nocookie.com/embed/GVdTAdx7DYk"
+        title="YouTube video player"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+      <h2 class="leoge" style="margin-top: 100px;">GAMEPLAY VIDEO IGRE</h2>
+<section class="custom-grid1">
+
+  <a class="box square1" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+    <img src="/assets/images/ostalo/game/g1.jpg" alt="">
+  </a>
+
+  <a class="box horizontal1" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
+    <img src="/assets/images/ostalo/game/g2.jpg" alt="">
+  </a>
+
+  <a class="box vertical" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+    <img src="/assets/images/ostalo/game/g3.jpg" alt="">
+  </a>
+
+  <a class="box square2" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+    <img src="/assets/images/ostalo/game/g4.jpg" alt="">
+  </a>
+
+  <a class="box square3" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+    <img src="/assets/images/ostalo/game/g5.jpg" alt="">
+  </a>
+
+  <a class="box horizontal2" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+    <img src="/assets/images/ostalo/game/g6.jpg" alt="">
+  </a>
+
+</section>
+
+
 
   <footer class="footer bg-dark py-5 py-lg-11 py-xl-12">
     <div class="container">
       <div class="row">
         <div class="col-xl-5 mb-8 mb-xl-0">
           <div class="d-flex flex-column gap-8 pe-xl-5">
-          <img style="width: 70%;" src="/assets/images/logos/logo-light.png" alt="logo" class="img-fluid">
+          <img style="width: 70%;" src="/assets/images/logos/logo-red.svg" alt="logo" class="img-fluid">
             <div class="d-flex flex-column gap-2 bela">
-              <a target="_blank" class="link-hover hstack gap-3 text-white fs-5 bela">
+              <a class="link-hover hstack gap-3 text-white fs-5 bela">
                 <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary bela"></iconify-icon>
                 redstripesdesign@gmail.com
               </a>
@@ -199,6 +346,7 @@
             <li><a class="link-hover fs-5 text-white" href="/index.html">Naslovna</a></li>
             <li><a class="link-hover fs-5 text-white" href="/html/onama.html">O nama</a></li>
             <li><a class="link-hover fs-5 text-white" href="#Goreje" href="/html/projects.html">Projekti</a></li>
+            <li><a class="link-hover fs-5 text-white" href="/html/vdeosi.html">Video</a></li>
             <li><a class="link-hover fs-5 text-white" href="/html/projects-detail.html">Cjenik</a></li>
             <li><a class="link-hover fs-5 text-white" href="/index.html#usluge12">Izlaz</a></li>
           </ul>

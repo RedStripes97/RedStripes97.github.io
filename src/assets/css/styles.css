@@ -16512,40 +16512,6 @@ textarea.form-control-lg {
     transform: rotate(1turn);
   }
 }
-.portfolio-img {
-  position: relative;
-  overflow: hidden;
-}
-.portfolio-img::before {
-  content: "";
-  display: block;
-  padding-top: 72%;
-}
-.portfolio-img > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.portfolio-img:hover .portfolio-overlay {
-  visibility: visible;
-  transform: translateY(0);
-}
-.portfolio-img .portfolio-overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  visibility: hidden;
-  transform: translateY(-100%);
-  transition: all 0.4s ease-in-out;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
 .meet-team-img {
   position: relative;
   overflow: hidden;
@@ -17138,8 +17104,6 @@ max-width:1100px; /* veličina slike */
 width:100%;
 height:auto;
 }
-
-
   
 }
 
@@ -17172,6 +17136,22 @@ color: #ffffff;
         "vertical horizontal2 horizontal2";
 }
 
+.custom-grid1 {
+    max-width: 1500px;
+    margin: 120px auto;
+    padding: 0 20px;
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px;
+    gap: 20px;
+
+    grid-template-areas:
+        "square1 horizontal1 horizontal1"
+        "vertical square2 square3"
+        "vertical horizontal2 horizontal2";
+}
 .box {
     position: relative;
     overflow: hidden;
@@ -17224,9 +17204,40 @@ color: #ffffff;
             "square3"
             "horizontal2";
     }
+    
+
+
 }
 
+/* RESPONSIVE */
 
+@media (max-width: 1200px) {
+    .custom-grid1 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "square1 horizontal1"
+            "vertical vertical"
+            "square2 square3"
+            "horizontal2 horizontal2";
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-grid1 {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "square1"
+            "horizontal1"
+            "vertical"
+            "square2"
+            "square3"
+            "horizontal2";
+    }
+    
+
+
+}
 
 .box {
     position: relative;
@@ -17345,6 +17356,18 @@ background-color: red;
     overflow: hidden;
 }
 
+.cardic1 {
+    position: relative;
+    width: 320px;
+    padding: 20px 15px;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    text-align: center;
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
 
 /* IMAGE */
 .bundle-img {
@@ -17352,7 +17375,7 @@ background-color: red;
 }
 
 .bundle-img img {
-    width: 140px;
+    width: 160px;
     transition: 0.4s ease;
 }
 
@@ -17360,13 +17383,13 @@ background-color: red;
 /* RIBBON */
 .ribbon {
     position: absolute;
-    top: 20px;
-    right: -40px;
+    top: 30px;
+    right: -60px;
     transform: rotate(45deg);
     background: #ff0000;
     color: #fff;
     padding: 8px 60px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -17576,4 +17599,306 @@ pointer-events:none;
 @keyframes spin{
 0%{transform:rotate(0deg);}
 100%{transform:rotate(360deg);}
+}
+
+.search-container {
+  position: relative;
+  width: 500px;
+  margin: 80px auto;
+}
+
+/* INPUT */
+#searchInput {
+  width: 100%;
+  padding: 14px 50px 14px 50px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* FOCUS efekt */
+#searchInput:focus {
+  border-color: #e60023;
+  box-shadow: 0 0 20px rgba(230, 0, 35, 0.3);
+}
+
+/* IKONA (logo) */
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 22px;
+  width: 22px;
+}
+
+/* AUTOCOMPLETE BOX */
+#autocomplete {
+  position: absolute;
+  width: 100%;
+  background: white;
+  margin-top: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+/* ITEM */
+.item1 {
+  padding: 14px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+/* HOVER */
+.item1:hover {
+  background: red;
+  color: white;
+}
+
+/* 📱 MOBITEL */
+@media (max-width: 600px) {
+  .search-container {
+    width: 95%;
+    margin: 40px auto;
+  }
+
+  #searchInput {
+    padding: 12px 45px;
+    font-size: 14px;
+  }
+
+  .search-icon {
+    left: 15px;
+    height: 18px;
+    width: 18px;
+  }
+
+  .item1 {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+/* 📱 TABLET */
+@media (max-width: 900px) {
+  .search-container {
+    max-width: 500px;
+  }
+}
+
+    .box1 {
+        padding: 40px;
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    .haha {
+        font-size: 30px;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    /* TIMER - NAJVEĆI ELEMENT */
+    .timer {
+        font-size: 60px;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 20px 0;
+    }
+
+    .timer span {
+        color: red;
+    }
+
+    .info {
+        font-size: 30px;
+        color: #ddd;
+        margin-top: 10px;
+    }
+
+    .highlight {
+        color: red;
+        font-weight: bold;
+    }
+
+    .text-section h2 {
+  margin-bottom: 16px;
+}
+
+.duhast {
+  color: dimgrey;
+  margin: 20px;
+  font-size: 16pt;
+  text-align: left;;
+}
+
+@media (max-width: 600px) {
+.duhast {
+  color: dimgrey;
+  padding-right: 20px;
+  text-align: left;;
+  font-size: 14pt;
+}
+}
+
+.leoge {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+.leoge {
+  text-align: left;;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+.portfolio-img {
+  overflow: hidden;
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+  transition: box-shadow 0.5s ease;
+}
+
+.portfolio-img:hover {
+  transition: box-shadow 0.5s ease;
+  box-shadow: 0px 0px 220px red;
+  
+}
+
+.portfolio-hover {
+  transition: transform 0.5s ease;
+}
+
+.portfolio-img:hover .portfolio-hover {
+  transform: scale(1.08);
+}
+
+.owl-stage-outer {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.portfolio-img1 {
+  overflow: hidden;
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+}
+
+
+.portfolio-hover1 {
+  transition: transform 0.5s ease;
+}
+
+.portfolio-img1:hover .portfolio-hover {
+  transform: scale(1.08);
+}
+
+.miki1 {
+  color: #000;
+  font-size: 12pt;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.miki2 {
+  color: red;
+  font-size: 20pt;
+}
+
+.bundle-img2 img {
+    width: 200px;
+}
+
+.cardic1 {
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.8s ease, color 0.91s ease;
+}
+
+/* hover efekt */
+.cardic1:hover {
+  background-color: red;
+}
+
+/* tekst */
+.miki1,
+.miki2 {
+  transition: color 0.4s ease;
+}
+
+/* promjena teksta */
+.cardic1:hover .miki1,
+.cardic1:hover .miki2 {
+  color: white;
+}
+
+.audio-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* horizontalno centriranje */
+}
+
+.audio-container {
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+.audio-card {
+    background: white;
+    border-radius: 16px;
+    padding: 15px 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+}
+
+.audio-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 116px rgba(255, 0, 0, 1);
+}
+
+.play-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.audio-info {
+    flex: 1;
+}
+
+.audio-title {
+  color: black;
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+audio {
+    width: 100%;
+    
 }
